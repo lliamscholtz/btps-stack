@@ -200,4 +200,4 @@ console.log(users);
 
 ## Example
 
-[BTPS Stack Example](./screenshots/bun-example.png)
+[BTPS Stack Example](/screenshots/bun-example.png)
