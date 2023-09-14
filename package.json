@@ -1,0 +1,20 @@
+{
+    "name": "bun-ts-prisma-supabase",
+    "module": "index.ts",
+    "type": "module",
+    "scripts": {
+        "dev": "bun --watch index.ts",
+        "start": "bun index.ts",
+        "check": "bunx tsc --noEmit"
+    },
+    "devDependencies": {
+        "bun-types": "latest",
+        "prisma": "^5.3.0"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@prisma/client": "5.3.0"
+    }
+}
